@@ -10,7 +10,7 @@ function Navbar() {
         <div className="md:hidden lg:block w-[20%]">
             <Link href={"/"} className="font-bold text-xl text-blue-600">Social Active</Link>
         </div>
-        <div className="hidden md:flex w-[50%] text-sm items-center justify-between">
+        <div className="hidden md:flex w-[50%] gap-2 text-sm items-center justify-between">
         <div className="flex gap-6 text-gray-600">
           <Link href="/" className="flex items-center gap-2">
             <Image
@@ -42,6 +42,10 @@ function Navbar() {
             />
             <span>Stories</span>
           </Link>
+        </div>
+        <div className='hidden xl:flex p-2 bg-slate-100 items-center rounded-xl'>
+          <input type="text" placeholder="search..." className="bg-transparent outline-none"/>
+          <Image src="/search.png" alt="" width={14} height={14}/>
         </div>
         </div>
         <div className="w-[30%] flex items-center gap-4 xl:gap-8 justify-end">
