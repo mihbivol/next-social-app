@@ -3,7 +3,7 @@ import React from 'react'
 
 function AddPost() {
   return (
-    <div className="p-4 bg-white rounded-lg flex gap-4 justify-between text-sm">
+    <div className="p-4 bg-white shadow-md rounded-lg flex gap-4 justify-between text-sm">
       <Image src={"https://images.pexels.com/photos/3140079/pexels-photo-3140079.jpeg"} width={48} height={48} alt='' className='w-12 h-12 object-cover rounded-full' />
       <div className="flex-1">
         <div className="flex gap-4">
